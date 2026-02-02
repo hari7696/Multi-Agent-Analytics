@@ -1,0 +1,41 @@
+# Core dependencies for Financial Agent Runner
+azure-cosmos>=4.5.0
+azure-identity>=1.14.0
+azure-keyvault-secrets>=4.7.0
+python-dotenv>=1.0.0
+litellm>=1.0.0
+
+# Google ADK dependencies
+google-adk>=1.10.0
+
+# Data processing (already used in your system)
+pandas>=1.5.0
+numpy>=1.24.0
+plotly>=5.17.0
+openpyxl>=3.1.0
+
+# Web server dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+jinja2>=3.1.0
+python-multipart>=0.0.6
+
+# Additional production dependencies  
+pydantic>=2.5.0
+python-jose[cryptography]>=3.3.0
+PyJWT>=2.8.0
+msal>=1.25.0
+
+# Testing dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+httpx>=0.24.0
+pytest-xdist>=3.3.0
+pytest-html>=3.2.0
+faker>=19.6.0
+factory-boy>=3.3.0
+
+azure-storage-blob>=12.26.0
+cryptography>=41.0.0
